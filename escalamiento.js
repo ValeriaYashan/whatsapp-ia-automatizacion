@@ -14,7 +14,7 @@ const twilio = require('twilio');
 const client = twilio(process.env.TWILIO_ACCOUNT_SID, process.env.TWILIO_AUTH_TOKEN);
 
 const FROM = process.env.TWILIO_WHATSAPP_FROM; // ej: 'whatsapp:+14155238886'
-const TO = process.env.NOTIFICACION_WHATSAPP_TO; // ej: 'whatsapp:+541140791007'
+const TO = process.env.NOTIFICACION_WHATSAPP_TO; // ej: 'whatsapp:+5491100000000'
 
 // Buffer en memoria del resumen diario. En producción real conviene
 // persistirlo (archivo o base chica) para que un reinicio no lo pierda

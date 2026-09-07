@@ -76,7 +76,7 @@ async function estaPausado() {
 
 app.post('/webhook/whatsapp', async (req, res) => {
   const mensajeEntrante = (req.body.Body || '').trim();
-  const telefono = req.body.From; // ej: 'whatsapp:+541140791007'
+  const telefono = req.body.From; // ej: 'whatsapp:+5491100000000'
 
   // Confirmar recepción a Twilio de inmediato; el resto corre async.
   res.status(200).send('<Response></Response>');

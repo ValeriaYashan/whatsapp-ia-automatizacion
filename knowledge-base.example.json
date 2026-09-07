@@ -4,7 +4,7 @@
   "negocio": {
     "nombre": "[NOMBRE DEL NEGOCIO]",
     "rubro": "[ej: consultorio odontologico, inmobiliaria, estudio contable]",
-    "numero_whatsapp": "[NUMERO EN FORMATO INTERNACIONAL, ej 541140791007]",
+    "numero_whatsapp": "[NUMERO EN FORMATO INTERNACIONAL, ej 5491100000000]",
     "horario_atencion": "[ej: lunes a viernes de 9 a 18]",
     "ubicacion": "[direccion o zona, solo si es relevante para el cliente]"
   },
