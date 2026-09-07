@@ -1,0 +1,18 @@
+{
+  "name": "whatsapp-ia-automatizacion",
+  "version": "1.0.0",
+  "description": "Plantilla reutilizable de asistente de atencion al cliente por WhatsApp con IA (Twilio + Claude API), con guardrails en dos capas, tope de gasto y escalamiento a humano.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check guardrails.js && node --check capa2-safety-check.js && node --check budget-guard.js && node --check escalamiento.js && node --check system-prompt.js"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "twilio": "^5.3.0"
+  }
+}

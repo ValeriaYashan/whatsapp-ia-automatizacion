@@ -1,0 +1,6 @@
+node_modules/
+.env
+knowledge-base.json
+budget-ledger.json
+*.log
+.DS_Store
